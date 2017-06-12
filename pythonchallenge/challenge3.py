@@ -6,7 +6,7 @@ print file2
 count = 0
 
 def checkletters(letters1, letters2):
-    if letters1 == letters2:
+    if letters1[0] in letters2 and letters1[1] in letters2 and letters1[2] in letters2:
         return True
 
 def check3let(letters):
